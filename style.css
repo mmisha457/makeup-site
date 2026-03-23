@@ -181,7 +181,7 @@ a { text-decoration: none; color: inherit; }
 .contact__email:hover { color: var(--c-nude); text-decoration-color: var(--c-nude); }
 
 .contact__social-rows { flex: 1; display: flex; flex-direction: column; }
-.social-row { display: flex; justify-content: space-between; align-items: center; padding: 2rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.15); color: var(--c-white); transition: var(--transition); overflow: hidden; }
+.social-row { display: flex; justify-content: space-between; align-items: center; padding: 2rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.15); color: var(--c-white); transition: var(--transition); }
 .social-row:first-child { border-top: 1px solid rgba(255, 255, 255, 0.15); }
 .social-row__name { font-family: var(--font-heading); font-size: 2.5rem; font-weight: 300; transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 .social-row__arrow { font-size: 2rem; font-weight: 300; transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
